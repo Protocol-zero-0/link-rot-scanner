@@ -5,9 +5,10 @@
 # 它的用处是兜住本地那道闸管不到的推送:别的机器推的、--no-verify 绕过的、网页上直接改的。
 # 失败时 GitHub 会按你的通知设置发邮件。
 #
-# 用法:把本文件放到仓库的 .github/workflows/privacy-gate.yml,然后
+# 用法(顺序别反:先设密文,再推文件 —— 反过来的话,第一次运行时密文还没设上,检查会直接失败):
 #   gh secret set PRIVACY_TERMS -R <owner>/<repo> < ~/.compound-memory/privacy-terms.txt
 #   gh variable set PRIVACY_MODE -R <owner>/<repo> --body publish     # 可选,默认 strict
+#   然后把本文件放到仓库的 .github/workflows/privacy-gate.yml 推上去
 # 词表以加密密文存在 GitHub 上,只在这个 Action 运行时可见,不进仓库、不出现在日志里。
 name: privacy-gate
 on: [push]
