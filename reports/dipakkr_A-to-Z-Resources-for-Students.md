@@ -1,0 +1,103 @@
+# Link health: dipakkr/A-to-Z-Resources-for-Students
+
+Scanned 2026-09-22 against 905 links found in the README.
+
+Only HTTP 404/410 count as dead. 403/412 (bot protection), 429 (rate
+limiting) and 000 (DNS/TLS failure) are excluded - on a list this size
+they are overwhelmingly false alarms. Every link below returned 404/410
+on two separate passes with redirects followed. GitHub entries are
+resolved through the API, so a renamed or transferred repository is not
+mistaken for a deleted one.
+
+| | count |
+|---|---|
+| Dead links | 52 |
+| Deleted repositories | 0 |
+| Archived repositories | 1 |
+| No activity in 2+ years | 14 |
+
+## Dead links (52)
+
+Clustered on hosts that went away wholesale:
+
+- `www.interviewbit.com` - 12 links
+- `play.google.com` - 3 links
+- `www.youtube.com` - 3 links
+
+- http://faculty.marshall.usc.edu/gareth-james/ISL/ISLR%20Seventh%20Printing.pdf
+- http://www.amity.edu/
+- http://www.ecell.in/eureka/
+- https://braziljs.org/conf/
+- https://callforcode.org/challenge/
+- https://code.google.com/codejam/kickstart/
+- https://dev.to/valentinogagliardi/react-redux-tutorial-for-beginners-learning-redux-in-2018-13hj
+- https://developer.apple.com/wwdc19/scholarships/
+- https://developers.facebook.com/developercircles
+- https://devmountain.com/
+- https://egghead.io/courses/getting-started-with-redux
+- https://en.wikibooks.org/wiki/Octave_Programming_Tutorial/
+- https://flaviocopes.com/express-handbook/
+- https://fresh2refresh.com/c-programming/
+- https://learn.freecodecamp.org/front-end-libraries/redux
+- https://mlh.io/seasons/na-2025/events
+- https://nf-co.re/events/2025/hackathon-spring
+- https://nptel.ac.in/courses/106/102/106102064/
+- https://play.google.com/store/apps/details?id=com.aptitude.preparation.app
+- https://play.google.com/store/apps/details?id=com.careerpower.aptitude
+- https://play.google.com/store/apps/details?id=com.placement.preparation
+- https://qwiklabs.com/quests/19
+- https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/faa0ec253021944ef15fe0872673f7e42102d7e9/img/frontend.png
+- https://raw.githubusercontent.com/kamranahmedse/developer-roadmap/master/img/backend.png
+- https://research.adobe.com/adobe-india-women-in-technology-scholarship/
+- https://twitter.com/youyuxi
+- https://werkenbijns.nl/hackathon/
+- https://www.digitaljamaica.com/digital-jam-hackathon-2025/
+- https://www.girldevelopit.com/chapters
+- https://www.iie.org/Programs/WeTech/STEM-Scholarships-for-Women/Goldman-Sachs-Scholarship
+- https://www.ime.unicamp.br/~dias/Intoduction%20to%20Statistical%20Learning.pdf
+- https://www.interviewbit.com/c-interview-questions/
+- https://www.interviewbit.com/c-sharp-interview-questions/
+- https://www.interviewbit.com/cpp-interview-questions/
+- https://www.interviewbit.com/data-analyst-interview-questions/
+- https://www.interviewbit.com/data-science-interview-questions/
+- https://www.interviewbit.com/docker-interview-questions/
+- https://www.interviewbit.com/full-stack-developer-interview-questions/
+- https://www.interviewbit.com/git-interview-questions/
+- https://www.interviewbit.com/javascript-interview-questions/
+- https://www.interviewbit.com/machine-learning-interview-questions/
+- https://www.interviewbit.com/python-cheat-sheet/
+- https://www.interviewbit.com/python-interview-questions/
+- https://www.microsoft.com/en-us/education/products/office/default.aspx
+- https://www.owasp.org/index.php/Jaipur
+- https://www.pluralsight.com/partners/google/
+- https://www.pluralsight.com/paths/android
+- https://www.rstudio.com/online-learning/
+- https://www.wemakescholars.com/blog/common-misconceptions-about-studying-abroad/
+- https://www.youtube.com/c/MathsTricks
+- https://www.youtube.com/user/CareerRideVideos
+- https://www.youtube.com/user/tailopezofficial/about
+
+## Archived repositories (1)
+
+- facebookresearch/DensePose (last push 2023-01-18)
+
+## No activity in 2+ years (14)
+
+- jakevdp/PythonDataScienceHandbook (last push 2024-06-26, 49959 stars)
+- afshinea/stanford-cs-229-machine-learning (last push 2020-05-20, 20238 stars)
+- ujjwalkarn/Machine-Learning-Tutorials (last push 2024-06-12, 18215 stars)
+- zziz/pwc (last push 2020-01-16, 15306 stars)
+- jakevdp/WhirlwindTourOfPython (last push 2024-01-31, 4041 stars)
+- fravoll/solidity-patterns (last push 2024-04-19, 3321 stars)
+- llSourcell/Learn_Deep_Learning_in_6_Weeks (last push 2018-10-13, 2649 stars)
+- mbadry1/Top-Deep-Learning (last push 2024-02-17, 1774 stars)
+- nisrulz/android-examples (last push 2023-10-12, 1739 stars)
+- ZoranPandovski/al-go-rithms (last push 2024-06-18, 1372 stars)
+- Amejia481/Associate-Android-Developer-Certification (last push 2023-02-21, 1055 stars)
+- PacktPublishing/Node.js_Design_Patterns_Second_Edition_Code (last push 2021-02-11, 707 stars)
+- ellerbrock/open-source-badges (last push 2022-08-03, 551 stars)
+- shauryauppal/PHP-Database-connection (last push 2018-10-06, 15 stars)
+
+---
+
+Generated by [link-rot-scanner](https://github.com/Protocol-zero-0/link-rot-scanner).

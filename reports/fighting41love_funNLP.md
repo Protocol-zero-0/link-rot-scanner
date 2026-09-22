@@ -1,0 +1,347 @@
+# Link health: fighting41love/funNLP
+
+Scanned 2026-09-22 against 595 links found in the README.
+
+Only HTTP 404/410 count as dead. 403/412 (bot protection), 429 (rate
+limiting) and 000 (DNS/TLS failure) are excluded - on a list this size
+they are overwhelmingly false alarms. Every link below returned 404/410
+on two separate passes with redirects followed. GitHub entries are
+resolved through the API, so a renamed or transferred repository is not
+mistaken for a deleted one.
+
+| | count |
+|---|---|
+| Dead links | 16 |
+| Deleted repositories | 12 |
+| Archived repositories | 25 |
+| No activity in 2+ years | 250 |
+
+## Dead links (16)
+
+Clustered on hosts that went away wholesale:
+
+- `static.aminer.cn` - 9 links
+
+5 have an archived copy, linked inline.
+
+- https://ai.google/static/documents/palm2techreport.pdf
+  - archived copy: https://web.archive.org/web/20231220041148/https://ai.google/static/documents/palm2techreport.pdf
+- https://arxiv.org/abs/200414257
+- https://arxiv.org/pdf/200211893pdf
+- https://docs.google.com/document/d/1i9PivZcF9q2kQNBL-SurK_Hs5nFw24zGEWNcFrONCdo/edit
+  - archived copy: https://web.archive.org/web/20230404032854/https://docs.google.com/document/d/1i9PivZcF9q2kQNBL-SurK_Hs5nFw24zGEWNcFrONCdo/edit
+- https://sebastianraschka.com/blog/2023/llm-mixed-precision.html
+  - archived copy: https://web.archive.org/web/20230613234217/https://sebastianraschka.com/blog/2023/llm-mixed-precision.html
+- https://static.aminer.cn/misc/article/3dpdf
+- https://static.aminer.cn/misc/article/aichippdf
+- https://static.aminer.cn/misc/article/blockchain_publicpdf
+- https://static.aminer.cn/misc/article/cgpdf
+- https://static.aminer.cn/misc/article/facerecognitionpdf
+- https://static.aminer.cn/misc/article/nlppdf
+- https://static.aminer.cn/misc/article/robotics_betapdf
+- https://static.aminer.cn/misc/article/selfdrivingpdf
+- https://static.aminer.cn/misc/article/translationpdf
+- https://www.docdroid.net/KfwKd1y/llm-redteaming-pdf
+  - archived copy: https://web.archive.org/web/20230426161155/https://www.docdroid.net/KfwKd1y/llm-redteaming-pdf
+- https://www.tau-nlp.org/commonsenseqa
+  - archived copy: https://web.archive.org/web/20240306091029/https://www.tau-nlp.sites.tau.ac.il/commonsenseqa
+
+## Deleted repositories (12)
+
+- KuangDD/aukit
+- KuangDD/phkit
+- KuangDD/zhrtvc
+- KuangDD/zhvoice
+- UCSD-AI4H/COVID-Dialogue
+- UCSD-AI4H/Medical-Dialogue-System
+- brightmart/ChineseGLUE
+- kidden/nlp4han
+- liuhuanyong/ProductKnowledgeGraph
+- liuhuanyong/QAonMilitaryKG
+- netnr/zidian
+- paubric/python-sirajnet
+
+## Archived repositories (25)
+
+- PaddlePaddle/Parakeet (last push 2021-11-19)
+- WangRongsheng/ChatGenTitle (last push 2023-08-13)
+- allenai/allennlp-reading-comprehension (last push 2020-03-11)
+- atlanhq/camelot (last push 2023-01-05)
+- didi/ChineseNLP (last push 2022-04-07)
+- dstlry/dstlr (last push 2020-03-04)
+- euske/pdfminer (last push 2022-12-07)
+- facebookresearch/BLINK (last push 2023-09-21)
+- facebookresearch/LAMA (last push 2024-07-07)
+- facebookresearch/LASER (last push 2024-05-02)
+- facebookresearch/XLM (last push 2023-02-14)
+- facebookresearch/covost (last push 2021-09-14)
+- facebookresearch/simmc (last push 2023-10-21)
+- google-research-datasets/Taskmaster (last push 2024-04-24)
+- google-research-datasets/dakshina (last push 2020-05-27)
+- google-research/tapas (last push 2024-07-22)
+- hiyouga/ChatGLM-Efficient-Tuning (last push 2023-10-12)
+- jeongukjae/python-mecab (last push 2021-05-21)
+- kagisearch/pyllms (last push 2026-02-19)
+- langchain-ai/auto-evaluator (last push 2025-06-26)
+- metachris/pdfx (last push 2023-06-15)
+- microsoft/botframework (last push 2020-01-08)
+- microsoft/macaw (last push 2024-04-08)
+- microsoft/nlp-recipes (last push 2022-08-30)
+- novoic/surfboard (last push 2022-03-04)
+
+## No activity in 2+ years (250)
+
+- fighting41love/funNLP (last push 2024-05-10, 83305 stars)
+- fighting41love/funnlp (last push 2024-05-10, 83305 stars)
+- suno-ai/bark (last push 2024-08-19, 39271 stars)
+- fxsjy/jieba (last push 2024-08-21, 35165 stars)
+- openai/chatgpt-retrieval-plugin (last push 2024-07-04, 21245 stars)
+- graykode/nlp-tutorial (last push 2024-02-21, 14933 stars)
+- borisdayma/dalle-mini (last push 2023-11-09, 14723 stars)
+- Embedding/Chinese-Word-Vectors (last push 2023-10-30, 12228 stars)
+- pwxcoo/chinese-xinhua (last push 2023-12-26, 11684 stars)
+- 0voice/from_coder_to_expert (last push 2024-05-20, 11223 stars)
+- artidoro/qlora (last push 2024-06-10, 11019 stars)
+- Baiyuetribe/paper2gui (last push 2024-09-20, 10702 stars)
+- AIGC-Audio/AudioGPT (last push 2024-07-06, 10171 stars)
+- deep-floyd/IF (last push 2024-04-14, 7797 stars)
+- Morizeyao/GPT2-Chinese (last push 2024-04-25, 7594 stars)
+- openlm-research/open_llama (last push 2023-07-16, 7527 stars)
+- bigcode-project/starcoder (last push 2024-02-27, 7500 stars)
+- liuhuanyong/QASystemOnMedicalKG (last push 2024-08-08, 7383 stars)
+- SophonPlus/ChineseNlpCorpus (last push 2019-01-29, 6603 stars)
+- pengxiao-song/LawGPT (last push 2024-06-11, 6060 stars)
+- wb14123/seq2seq-couplet (last push 2024-07-25, 5484 stars)
+- ownthink/KnowledgeGraphData (last push 2023-12-06, 5201 stars)
+- husthuke/awesome-knowledge-graph (last push 2021-03-11, 5158 stars)
+- jacobeisenstein/gt-nlp-class (last push 2023-01-31, 5086 stars)
+- macanv/BERT-BiLSTM-CRF-NER (last push 2021-02-24, 4909 stars)
+- VincentSit/ChinaMobilePhoneNumberRegex (last push 2022-05-17, 4768 stars)
+- sanchit-gandhi/whisper-jax (last push 2024-04-03, 4680 stars)
+- InsaneLife/ChineseNLPCorpus (last push 2023-11-21, 4612 stars)
+- CLUEbenchmark/CLUEDatasetSearch (last push 2022-11-21, 4453 stars)
+- ray-project/llm-numbers (last push 2024-01-16, 4320 stars)
+- mckaywrigley/ai-code-translator (last push 2023-12-21, 4171 stars)
+- brightmart/albert_zh (last push 2022-11-21, 3983 stars)
+- NTMC-Community/MatchZoo (last push 2024-08-02, 3849 stars)
+- GanymedeNil/document.ai (last push 2023-05-12, 3666 stars)
+- ownthink/Jiagu (last push 2022-05-07, 3425 stars)
+- deep-diver/LLM-As-Chatbot (last push 2023-11-20, 3317 stars)
+- jm199504/Financial-Knowledge-Graphs (last push 2024-07-07, 3131 stars)
+- dbiir/UER-py (last push 2024-05-09, 3116 stars)
+- yangjianxin1/GPT2-chitchat (last push 2023-10-30, 2994 stars)
+- DSKSD/DeepNLP-models-Pytorch (last push 2019-10-15, 2944 stars)
+- FreedomIntelligence/LLMZoo (last push 2023-11-26, 2934 stars)
+- jbesomi/texthero (last push 2023-08-29, 2906 stars)
+- thunlp/UltraChat (last push 2024-03-13, 2900 stars)
+- filip-michalsky/SalesGPT (last push 2024-09-17, 2766 stars)
+- GanjinZero/awesome_Chinese_medical_NLP (last push 2024-01-17, 2639 stars)
+- blmoistawinde/HarvestText (last push 2024-05-13, 2629 stars)
+- saffsd/langid.py (last push 2020-01-01, 2462 stars)
+- BrikerMan/Kashgari (last push 2024-09-03, 2382 stars)
+- WZBSocialScienceCenter/pdftabextract (last push 2022-06-24, 2253 stars)
+- TingFree/NLPer-Arsenal (last push 2023-08-29, 2240 stars)
+- lonePatient/BERT-NER-Pytorch (last push 2023-03-11, 2237 stars)
+- lemonhu/stock-knowledge-graph (last push 2020-07-23, 2179 stars)
+- km1994/LLMsNineStoryDemonTower (last push 2024-03-30, 2170 stars)
+- observerss/textfilter (last push 2021-08-20, 2111 stars)
+- chenking2020/FindTheChatGPTer (last push 2023-08-14, 2002 stars)
+- OpenMindClub/awesome-chatgpt (last push 2024-03-25, 1948 stars)
+- Toyhom/Chinese-medical-dialogue-data (last push 2023-08-18, 1767 stars)
+- Cormanz/smartgpt (last push 2024-04-11, 1737 stars)
+- terrifyzhao/bert-utils (last push 2019-10-14, 1669 stars)
+- AetherCortex/Llama-X (last push 2023-08-30, 1602 stars)
+- boudinfl/pke (last push 2023-07-12, 1591 stars)
+- liuhuanyong/CrimeKgAssitant (last push 2023-12-05, 1588 stars)
+- open-mmlab/Multimodal-GPT (last push 2023-06-04, 1511 stars)
+- NiuTrans/Classical-Modern (last push 2024-04-21, 1488 stars)
+- liuhuanyong/TextGrapher (last push 2021-10-20, 1471 stars)
+- WenRichard/KBQA-BERT (last push 2021-12-16, 1469 stars)
+- zhihao-chen/QASystemOnMedicalGraph (last push 2019-05-24, 1428 stars)
+- wangxuqi/Prompt-Engineering-Guide-Chinese (last push 2024-09-14, 1411 stars)
+- zhanlaoban/eda_nlp_for_Chinese (last push 2022-05-31, 1382 stars)
+- PKUJohnson/OpenData (last push 2020-11-04, 1368 stars)
+- wainshine/Company-Names-Corpus (last push 2024-03-27, 1294 stars)
+- charlesXu86/Chatbot_CN (last push 2021-06-13, 1291 stars)
+- YeYzheng/KGQA-Based-On-medicine (last push 2019-01-31, 1279 stars)
+- yuanxiaosc/Entity-Relation-Extraction (last push 2020-06-01, 1230 stars)
+- liuhuanyong/ComplexEventExtraction (last push 2018-12-15, 1226 stars)
+- kavgan/nlp-in-practice (last push 2020-12-02, 1186 stars)
+- ChestnutHeng/Wudao-dict (last push 2024-01-01, 1184 stars)
+- fighting41love/cocoNLP (last push 2022-06-28, 1127 stars)
+- 1eez/103976 (last push 2023-06-12, 1064 stars)
+- aliutkus/speechmetrics (last push 2023-07-05, 1057 stars)
+- dandelionsllm/pandallm (last push 2023-10-19, 1030 stars)
+- luozhouyang/python-string-similarity (last push 2022-11-12, 1014 stars)
+- ORDINAND/The-Art-of-Asking-ChatGPT-for-High-Quality-Answers-A-complete-Guide-to-Prompt-Engineering-Technique (last push 2023-03-21, 1010 stars)
+- ZhuiyiTechnology/pretrained-models (last push 2021-11-18, 1003 stars)
+- thunlp/OpenCLaP (last push 2020-03-18, 981 stars)
+- OmkarPathak/pyresparser (last push 2023-09-13, 960 stars)
+- lixiang0/WEB_KG (last push 2020-07-20, 956 stars)
+- liuhuanyong/PersonRelationKnowledgeGraph (last push 2018-12-15, 930 stars)
+- liuhuanyong/EventTriplesExtraction (last push 2022-11-26, 927 stars)
+- OYE93/Chinese-NLP-Corpus (last push 2020-12-28, 921 stars)
+- Doragd/Chinese-Chatbot-PyTorch-Implementation (last push 2024-07-25, 917 stars)
+- paulfitz/mlsql (last push 2023-06-12, 916 stars)
+- keredson/wordninja (last push 2023-02-19, 874 stars)
+- serhack/pdf-diff (last push 2023-05-08, 866 stars)
+- ZhuiyiTechnology/simbert (last push 2021-02-26, 860 stars)
+- dissorial/doc-chatbot (last push 2023-07-21, 853 stars)
+- kfcd/chaizi (last push 2023-01-08, 824 stars)
+- mbzuai-nlp/LaMini-LM (last push 2023-05-06, 822 stars)
+- rsanshierli/EasyBert (last push 2021-06-18, 817 stars)
+- thunlp/Chinese_Rumor_Dataset (last push 2020-06-26, 784 stars)
+- liuhuanyong/DomainWordsDict (last push 2021-08-30, 779 stars)
+- bojone/kg-2019 (last push 2020-05-16, 766 stars)
+- renatoviolin/next_word_prediction (last push 2020-09-27, 749 stars)
+- yaleimeng/Final_word_Similarity (last push 2022-02-16, 744 stars)
+- NLPScott/bert-Chinese-classification-task (last push 2018-12-11, 736 stars)
+- ICLRandD/Blackstone (last push 2024-07-16, 698 stars)
+- haiker2011/awesome-nlp-sentiment-analysis (last push 2020-11-06, 694 stars)
+- abacaj/awesome-transformers (last push 2023-04-12, 689 stars)
+- yuanxiaosc/BERT_Paper_Chinese_Translation (last push 2020-06-01, 685 stars)
+- skydark/nstools (last push 2020-07-08, 676 stars)
+- CasterWx/python-girlfriend-mood (last push 2019-08-09, 674 stars)
+- ydli-ai/CSL (last push 2023-06-19, 674 stars)
+- shinyke/Time-NLP (last push 2023-12-17, 660 stars)
+- yanqiangmiffy/InstructGLM (last push 2023-04-10, 650 stars)
+- deepcs233/jieba_fast (last push 2021-08-27, 642 stars)
+- rainarch/SentiBridge (last push 2018-09-20, 638 stars)
+- IndigoResearch/textteaser (last push 2018-11-07, 626 stars)
+- cdqa-suite/cdQA (last push 2020-04-30, 616 stars)
+- observerss/ngender (last push 2020-02-27, 616 stars)
+- chineseocr/table-ocr (last push 2024-08-30, 607 stars)
+- nonamestreet/weixin_public_corpus (last push 2019-01-07, 596 stars)
+- BaptisteBlouin/EventExtractionPapers (last push 2024-03-20, 580 stars)
+- lpty/nlp_base (last push 2019-04-29, 562 stars)
+- dongrixinyu/chinese_keyphrase_extractor (last push 2023-11-21, 555 stars)
+- txsun1997/LMaaS-Papers (last push 2024-05-14, 544 stars)
+- lemonhu/open-entity-relation-extraction (last push 2019-08-26, 538 stars)
+- Socialbird-AILab/BERT-Classification-Tutorial (last push 2018-12-07, 535 stars)
+- jind11/TextFooler (last push 2022-12-08, 530 stars)
+- synyi/poplar (last push 2022-12-11, 529 stars)
+- theamrzaki/text_summurization_abstractive_methods (last push 2020-10-06, 529 stars)
+- zhanzecheng/Time_NLP (last push 2022-12-08, 521 stars)
+- mhagiwara/github-typo-corpus (last push 2019-12-11, 520 stars)
+- mattdesl/dictionary-of-colour-combinations (last push 2024-04-27, 509 stars)
+- thunlp/LegalPapers (last push 2021-01-22, 500 stars)
+- Tencent/wwsearch (last push 2023-04-07, 497 stars)
+- KristiyanVachev/Question-Generation (last push 2024-02-14, 494 stars)
+- ChenChengKuan/awesome-text-generation (last push 2021-12-15, 489 stars)
+- JAIJANYANI/Automated-Resume-Screening-System (last push 2023-07-16, 482 stars)
+- LingDong-/cope (last push 2022-11-10, 481 stars)
+- UncP/aili (last push 2021-02-04, 477 stars)
+- ProHiryu/albert-chinese-ner (last push 2021-01-13, 476 stars)
+- yuanxiaosc/BERT-for-Sequence-Labeling-and-Text-Classification (last push 2022-12-08, 471 stars)
+- abachaa/MedQuAD (last push 2023-10-17, 464 stars)
+- DataTurks-Engg/Entity-Recognition-In-Resumes-SpaCy (last push 2019-10-31, 460 stars)
+- Emotional-Text-to-Speech/dl-for-emo-tts (last push 2024-06-26, 456 stars)
+- liuhuanyong/ChineseEmbedding (last push 2018-12-15, 454 stars)
+- NLPatVCU/medaCy (last push 2022-11-01, 442 stars)
+- WenRichard/QAmodel-for-Retrievalchatbot (last push 2022-04-09, 442 stars)
+- pHaeusler/micro-agent (last push 2023-04-04, 442 stars)
+- paperswithcode/axcell (last push 2022-11-28, 439 stars)
+- icoxfog417/awesome-financial-nlp (last push 2020-02-01, 438 stars)
+- khalladay/render-with-notepad (last push 2020-05-23, 436 stars)
+- liuhuanyong/CausalityEventExtraction (last push 2018-12-15, 433 stars)
+- interpretml/interpret-text (last push 2024-02-05, 430 stars)
+- sunyilgdx/SIFRank_zh (last push 2020-05-17, 430 stars)
+- several27/FakeNewsCorpus (last push 2020-01-25, 412 stars)
+- open-speech/speech-aligner (last push 2020-04-08, 410 stars)
+- Cranot/chatbot-injections-exploits (last push 2023-02-24, 408 stars)
+- carefree0910/carefree-learn (last push 2024-03-18, 407 stars)
+- cdimascio/py-readability-metrics (last push 2024-09-15, 407 stars)
+- ConvLab/ConvLab (last push 2023-04-11, 403 stars)
+- dbamman/litbank (last push 2022-12-08, 384 stars)
+- GlassyWing/bi-lstm-crf (last push 2019-06-20, 383 stars)
+- Wall-ee/chinese2digits (last push 2023-03-26, 374 stars)
+- CogStack/OpenGPT (last push 2023-05-30, 371 stars)
+- nlpcl-lab/bert-event-extraction (last push 2019-12-23, 341 stars)
+- EOA-AILab/NER-Chinese (last push 2019-07-04, 332 stars)
+- phunterlau/wangfeng-rnn (last push 2016-11-01, 332 stars)
+- baidu/information-extraction (last push 2019-05-10, 330 stars)
+- yongzhuo/Macadam (last push 2023-03-24, 324 stars)
+- fighting41love/Chinese_from_dongxiexidian (last push 2018-12-18, 306 stars)
+- ShuaichiLi/Chinese-sentence-similarity-task (last push 2020-12-12, 304 stars)
+- aishell-foundation/DaCiDian (last push 2020-06-15, 301 stars)
+- liuhuanyong/MusicLyricChatbot (last push 2018-10-15, 297 stars)
+- quincyliang/nlp-data-augmentation (last push 2020-12-10, 294 stars)
+- howl-anderson/tools_for_corpus_of_people_daily (last push 2023-07-06, 291 stars)
+- boat-group/fancy-nlp (last push 2022-12-08, 284 stars)
+- floodsung/LLM-with-RL-papers (last push 2024-04-24, 282 stars)
+- RandyPen/TextCluster (last push 2019-12-28, 281 stars)
+- Kyubyong/bert_ner (last push 2019-10-20, 280 stars)
+- tomgrek/zincbase (last push 2021-04-29, 278 stars)
+- gabrielspmoreira/chameleon_recsys (last push 2023-03-24, 277 stars)
+- liuhuanyong/SiameseSentenceSimilarity (last push 2019-12-05, 271 stars)
+- sakuranew/BERT-AttributeExtraction (last push 2019-04-01, 266 stars)
+- JayZhang42/FederatedGPT-Shepherd (last push 2023-07-07, 255 stars)
+- jd-aig/nlp_baai (last push 2022-11-22, 254 stars)
+- asyml/forte (last push 2024-02-05, 253 stars)
+- CLUEbenchmark/CLGE (last push 2020-12-09, 248 stars)
+- liuhuanyong/AbstractKnowledgeGraph (last push 2019-08-06, 248 stars)
+- qiu997018209/KnowledgeGraph (last push 2018-03-01, 247 stars)
+- Kyubyong/g2pC (last push 2019-07-10, 246 stars)
+- pumpkinduo/KnowledgeGraph_NER (last push 2019-06-04, 246 stars)
+- THUNLP-AIPoet/Datasets (last push 2020-04-03, 243 stars)
+- OpenLMLab/OpenChineseLLaMA (last push 2023-05-30, 239 stars)
+- Louis-udm/NER-BERT-CRF (last push 2021-03-09, 237 stars)
+- liuhuanyong/ImportantEventExtractor (last push 2018-10-07, 227 stars)
+- qingyujean/ssc (last push 2020-07-24, 225 stars)
+- yannvgn/laserembeddings (last push 2023-08-11, 225 stars)
+- yu45020/Text_Segmentation_Image_Inpainting (last push 2019-04-10, 225 stars)
+- ymcui/Chinese-RC-Datasets (last push 2019-12-19, 221 stars)
+- ShulinCao/OpenNRE-PyTorch (last push 2018-11-15, 218 stars)
+- thunlp/OpenBackdoor (last push 2023-04-10, 213 stars)
+- renatoviolin/Question-Answering-Albert-Electra (last push 2023-06-12, 207 stars)
+- wonderfulsuccess/chinese_abstractive_corpus (last push 2018-06-06, 205 stars)
+- yihenglu/chinese-address-segment (last push 2020-05-11, 203 stars)
+- JasonForJoy/Leaderboards-for-Multi-Turn-Response-Selection (last push 2021-05-31, 202 stars)
+- zhangyics/Chinese-abbreviation-dataset (last push 2021-07-17, 198 stars)
+- prakhar21/TextAugmentation-GPT2 (last push 2023-07-14, 192 stars)
+- berniey/hanziconv (last push 2020-03-28, 189 stars)
+- nkrnrnk/BertPunc (last push 2019-05-17, 182 stars)
+- tofunlp/lineflow (last push 2024-01-17, 181 stars)
+- lyeoni/prenlp (last push 2022-12-06, 164 stars)
+- radi-cho/botbots (last push 2023-04-01, 164 stars)
+- GlassyWing/transformer-word-segmenter (last push 2019-02-13, 163 stars)
+- A-Rain/BDCI2019-Negative_Finance_Info_Judge (last push 2022-12-08, 162 stars)
+- CLUEbenchmark/ELECTRA (last push 2020-03-22, 141 stars)
+- yc9701/pansori (last push 2019-02-10, 140 stars)
+- SIDN-IAP/attnvis (last push 2020-07-05, 139 stars)
+- charlesXu86/char_featurizer (last push 2020-05-25, 138 stars)
+- panhaiqi/AncientPoetry (last push 2017-03-25, 138 stars)
+- yangjianxin1/OFA-Chinese (last push 2023-02-13, 138 stars)
+- zedom1/error-detection (last push 2019-03-31, 136 stars)
+- YujieLu10/LLMScore (last push 2023-10-25, 135 stars)
+- ideo/LaughDetection (last push 2019-03-21, 130 stars)
+- liuhuanyong/WordMultiSenseDisambiguation (last push 2018-12-15, 130 stars)
+- LeeSureman/Batch_Parallel_LatticeLSTM (last push 2020-04-17, 129 stars)
+- silverriver/ChatGLM-6B-Slim (last push 2023-04-05, 124 stars)
+- zxx000728/CodeGPT (last push 2023-06-16, 113 stars)
+- zhangnn520/chinese_llama_alpaca_lora (last push 2023-04-29, 100 stars)
+- dropreg/efficient_alpaca (last push 2023-04-05, 98 stars)
+- EdinburghNLP/opus-100-corpus (last push 2024-02-13, 93 stars)
+- ZrrSkywalker/LLaMA-Adapter (last push 2023-06-14, 92 stars)
+- LG-1/video_music_book_datasets (last push 2021-01-03, 90 stars)
+- CLUEbenchmark/CLUEWSC2020 (last push 2020-05-24, 80 stars)
+- wptoux/albert-chinese-large-webqa (last push 2020-05-02, 77 stars)
+- alisawuffles/ambient (last push 2024-02-05, 72 stars)
+- holms-ur/fine-tuning (last push 2022-12-08, 71 stars)
+- renatoviolin/T5-paraphrase-generation (last push 2020-06-26, 64 stars)
+- complementizer/wcep-mds-dataset (last push 2024-08-20, 63 stars)
+- alvations/annotate-questionnaire (last push 2020-06-30, 59 stars)
+- gooofy/py-nltools (last push 2019-12-01, 55 stars)
+- wenyangchou/SimilarCharactor (last push 2021-06-07, 55 stars)
+- tinyfool/ChineseWithEnglish (last push 2013-09-04, 52 stars)
+- AppleHolic/audioset_augmentor (last push 2021-06-29, 45 stars)
+- khiajohnson/SpiCE-Corpus (last push 2022-04-28, 40 stars)
+- harvardnlp/Talk-Latent (last push 2019-03-18, 32 stars)
+- fighting41love/become-yukarin (last push 2019-08-28, 20 stars)
+- Wluper/lida (last push 2021-10-18, 10 stars)
+- fighting41love/CausalDataset (last push 2022-09-17, 1 stars)
+- fighting41love/openmlsys-zh (last push 2022-09-02, 1 stars)
+
+---
+
+Generated by [link-rot-scanner](https://github.com/Protocol-zero-0/link-rot-scanner).

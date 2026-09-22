@@ -56,6 +56,20 @@ updated).
 
 Output is a per-repository report under `reports/`.
 
+## Survey results
+
+Run across 159 widely-used curated lists holding roughly 4.2 million GitHub
+stars between them. It checked 37,203 links and found 1,102 genuinely dead
+ones, plus 206 linked repositories that have since been deleted, 794 that are
+archived, and 5,035 with no activity in two or more years.
+
+A naive checker would have reported **6,979** broken links against the same
+corpus. 5,877 of those - 84% - would have been wrong: 2,458 bot-protection
+403s, 1,553 DNS/TLS failures, 439 self-inflicted 429s, and so on. That gap is
+the whole point of the tool.
+
+Full survey and per-repository detail: [reports/](reports/).
+
 ## Limitations
 
 - Only reads the README. Lists split across multiple files need `-r` (recursive),
