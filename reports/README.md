@@ -2,7 +2,7 @@
 
 A survey run on 2026-09-22. Every repository below is a widely-used curated
 list or resource collection; together they hold roughly
-4234k GitHub stars.
+4.2 million GitHub stars.
 
 ## What was found
 
@@ -11,7 +11,7 @@ list or resource collection; together they hold roughly
 | Repositories scanned | 159 |
 | Links checked | 37,203 |
 | Dead links (404/410, double-verified) | 1,121 (1,102 unique URLs) |
-| Linked repositories since deleted | 206 |
+| Linked repositories since deleted | 205 |
 | Linked repositories now archived | 794 |
 | Linked repositories idle 2+ years | 5,035 |
 
@@ -69,7 +69,7 @@ Sorted by the number of actionable findings.
 | [brillout/awesome-react-components](https://github.com/brillout/awesome-react-components) | 48,464 | 749 | 11 | 5 | 22 | 172 |
 | [paralax/awesome-honeypots](https://github.com/paralax/awesome-honeypots) | 10,565 | 338 | 10 | 11 | 17 | 162 |
 | [sbilly/awesome-security](https://github.com/sbilly/awesome-security) | 14,875 | 339 | 12 | 5 | 17 | 63 |
-| [diff-usion/Awesome-Diffusion-Models](https://github.com/diff-usion/Awesome-Diffusion-Models) | 12,370 | 2487 | 17 | 2 | 11 | 281 |
+| [diff-usion/Awesome-Diffusion-Models](https://github.com/diff-usion/Awesome-Diffusion-Models) | 12,370 | 2487 | 17 | 1 | 11 | 281 |
 | [hslatman/awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence) | 10,665 | 279 | 11 | 4 | 14 | 50 |
 | [rshipp/awesome-malware-analysis](https://github.com/rshipp/awesome-malware-analysis) | 14,209 | 422 | 8 | 5 | 14 | 96 |
 | [bobeff/open-source-games](https://github.com/bobeff/open-source-games) | 15,282 | 412 | 16 | 0 | 10 | 33 |

@@ -34,7 +34,9 @@ Everything else is counted but not reported as broken.
 final destination.
 
 **2. GitHub repositories that no longer exist** — checked via the GitHub API
-rather than HTTP, so a rename/transfer is distinguished from a deletion.
+rather than HTTP. Note the GraphQL API does not follow rename/transfer
+redirects, so every repository it reports missing is re-checked through REST,
+which does. Renamed repositories are listed separately with their new name.
 
 **3. GitHub repositories that are archived** — still reachable, but the owner
 has marked them read-only. Usually worth flagging in a curated list.
@@ -60,7 +62,7 @@ Output is a per-repository report under `reports/`.
 
 Run across 159 widely-used curated lists holding roughly 4.2 million GitHub
 stars between them. It checked 37,203 links and found 1,102 genuinely dead
-ones, plus 206 linked repositories that have since been deleted, 794 that are
+ones, plus 205 linked repositories that have since been deleted, 794 that are
 archived, and 5,035 with no activity in two or more years.
 
 A naive checker would have reported **6,979** broken links against the same

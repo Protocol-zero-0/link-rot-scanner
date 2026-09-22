@@ -12,9 +12,9 @@ mistaken for a deleted one.
 | | count |
 |---|---|
 | Dead links | 17 |
-| Deleted repositories | 2 |
+| Deleted repositories | 1 |
 | Archived repositories | 11 |
-| No activity in 2+ years | 282 |
+| No activity in 2+ years | 283 |
 
 ## Dead links (17)
 
@@ -36,10 +36,9 @@ mistaken for a deleted one.
 - https://www.cis.upenn.edu/~leijh/projects/nap/
 - https://www.timothybrooks.com/instruct-pix2pix
 
-## Deleted repositories (2)
+## Deleted repositories (1)
 
 - Enderfga/FineRewards
-- budai4medtech/midl2023
 
 ## Archived repositories (11)
 
@@ -55,7 +54,7 @@ mistaken for a deleted one.
 - mrirecon/spreco (last push 2023-08-17)
 - openai/glide-text2im (last push 2024-03-08)
 
-## No activity in 2+ years (282)
+## No activity in 2+ years (283)
 
 - lllyasviel/ControlNet (last push 2024-02-25, 34118 stars)
 - CompVis/latent-diffusion (last push 2024-02-29, 14154 stars)
@@ -324,6 +323,7 @@ mistaken for a deleted one.
 - JJ-Vice/BAGM (last push 2024-09-16, 13 stars)
 - divyakraman/AerialDiffusion (last push 2023-10-03, 13 stars)
 - Hritikbansal/entigen_emnlp (last push 2023-08-16, 12 stars)
+- budai4medtech/midl2023 (last push 2023-07-17, 12 stars)
 - hbing-l/PoSynDA (last push 2023-08-28, 12 stars)
 - hectorcarrion/fedd (last push 2023-10-11, 12 stars)
 - KiUngSong/RSB (last push 2022-08-16, 11 stars)

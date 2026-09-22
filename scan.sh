@@ -74,6 +74,18 @@ for r in "${targets[@]}"; do
   xargs -a ".cache/$s/cand.txt" -P 6 -I{} bash -c 'probe "$@"' _ {} > ".cache/$s/pass2.tsv"
   awk -F'\t' '$1=="404"||$1=="410"{print $2}' ".cache/$s/pass2.tsv" | sort -u > ".cache/$s/dead.txt"
   gh_batch ".cache/$s/ghrefs.txt" > ".cache/$s/gh.tsv"
+  # GraphQL repository() does not follow rename/transfer redirects, REST does.
+  # Re-check every GONE so a moved repository is reported with its new name
+  # instead of being counted as deleted.
+  awk -F'\t' '$2=="GONE"{print $1}' ".cache/$s/gh.tsv" | while read -r g; do
+    if nn=$(gh api "repos/$g" --jq .full_name 2>/dev/null); then
+      printf '%s\t%s\n' "$g" "$nn"
+    fi
+  done > ".cache/$s/renamed.tsv"
+  if [ -s ".cache/$s/renamed.tsv" ]; then
+    awk -F'\t' 'NR==FNR{r[$1]=1;next} !($1 in r)' ".cache/$s/renamed.tsv" ".cache/$s/gh.tsv" > ".cache/$s/gh.tmp" \
+      && mv ".cache/$s/gh.tmp" ".cache/$s/gh.tsv"
+  fi
 
   { echo "# Link health: $r"; echo; echo "_Scanned $(date -u +%Y-%m-%d). Only HTTP 404/410 are reported as dead;"
     echo "403/412 (bot protection), 429 (rate limit) and 000 (network) are excluded._"; echo
@@ -84,6 +96,11 @@ for r in "${targets[@]}"; do
     done < ".cache/$s/dead.txt"
     echo; echo "## Deleted repositories ($(awk -F'\t' '$2=="GONE"' ".cache/$s/gh.tsv"|wc -l))"; echo
     awk -F'\t' '$2=="GONE"{print "- "$1}' ".cache/$s/gh.tsv"
+    if [ -s ".cache/$s/renamed.tsv" ]; then
+      echo; echo "## Renamed or transferred ($(wc -l < ".cache/$s/renamed.tsv"))"; echo
+      echo "Still alive under a new name - the link redirects today but will break if the old name is reused."; echo
+      awk -F'\t' '{print "- "$1" -> "$2}' ".cache/$s/renamed.tsv"
+    fi
     echo; echo "## Archived repositories ($(awk -F'\t' '$3=="true"' ".cache/$s/gh.tsv"|wc -l))"; echo
     awk -F'\t' '$3=="true"{print "- "$1" (last push "$4")"}' ".cache/$s/gh.tsv"
     echo; echo "## No activity in ${STALE_YEARS}+ years ($(awk -F'\t' -v d="$cutoff" '$2=="OK"&&$4<d' ".cache/$s/gh.tsv"|wc -l))"; echo
