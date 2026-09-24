@@ -1,6 +1,6 @@
 # Link rot across 159 large curated lists
 
-A survey run on 2026-09-22. Every repository below is a widely-used curated
+A survey run on 2026-09-24. Every repository below is a widely-used curated
 list or resource collection; together they hold roughly
 4.2 million GitHub stars.
 
@@ -10,7 +10,7 @@ list or resource collection; together they hold roughly
 |---|---|
 | Repositories scanned | 159 |
 | Links checked | 37,203 |
-| Dead links (404/410, double-verified) | 1,121 (1,102 unique URLs) |
+| Dead links (404/410, double-verified) | 1,100 (1,081 unique URLs) |
 | Linked repositories since deleted | 205 |
 | Linked repositories now archived | 794 |
 | Linked repositories idle 2+ years | 5,035 |
@@ -36,6 +36,12 @@ one. So only 404 and 410 are counted here, each re-checked on a separate
 second pass with redirects followed to their final destination. Of 1,104
 first-pass candidates, 1,102 survived.
 
+**Correction (2026-09-24):** 21 of those 1,102 were not dead. Their URLs
+contain parentheses (Wikipedia pages like `/wiki/Blood_(video_game)`) and the
+first version of the link extractor stopped at the first `)`, so it checked a
+truncated URL. The extractor now tracks balanced parentheses, the 21 are removed
+from every report, and the totals above reflect that (1,081 unique dead URLs).
+
 GitHub links are resolved through the API rather than over HTTP, which is
 what makes the deleted/archived/idle split possible at all - over plain
 HTTP a transferred repository and a deleted one look the same.
@@ -47,7 +53,7 @@ Sorted by the number of actionable findings.
 | repository | stars | links | dead | deleted | archived | idle 2y+ |
 |---|---:|---:|---:|---:|---:|---:|
 | [jnv/lists](https://github.com/jnv/lists) | 11,504 | 1787 | 25 | 16 | 86 | 708 |
-| [mikeroyal/Self-Hosting-Guide](https://github.com/mikeroyal/Self-Hosting-Guide) | 22,847 | 2395 | 57 | 7 | 48 | 172 |
+| [mikeroyal/Self-Hosting-Guide](https://github.com/mikeroyal/Self-Hosting-Guide) | 22,847 | 2395 | 56 | 7 | 48 | 172 |
 | [rShetty/awesome-podcasts](https://github.com/rShetty/awesome-podcasts) | 13,100 | 805 | 86 | 0 | 0 | 3 |
 | [thangchung/awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-core) | 21,389 | 818 | 6 | 7 | 73 | 210 |
 | [prakhar1989/awesome-courses](https://github.com/prakhar1989/awesome-courses) | 71,312 | 658 | 79 | 0 | 1 | 12 |
@@ -65,14 +71,13 @@ Sorted by the number of actionable findings.
 | [eugeneyan/applied-ml](https://github.com/eugeneyan/applied-ml) | 30,382 | 744 | 45 | 1 | 6 | 13 |
 | [visenger/awesome-mlops](https://github.com/visenger/awesome-mlops) | 14,219 | 518 | 48 | 0 | 1 | 26 |
 | [JStumpp/awesome-android](https://github.com/JStumpp/awesome-android) | 12,338 | 330 | 7 | 2 | 36 | 151 |
-| [ujjwalkarn/Machine-Learning-Tutorials](https://github.com/ujjwalkarn/Machine-Learning-Tutorials) | 18,215 | 532 | 43 | 1 | 1 | 45 |
+| [ujjwalkarn/Machine-Learning-Tutorials](https://github.com/ujjwalkarn/Machine-Learning-Tutorials) | 18,215 | 532 | 38 | 1 | 1 | 45 |
 | [brillout/awesome-react-components](https://github.com/brillout/awesome-react-components) | 48,464 | 749 | 11 | 5 | 22 | 172 |
 | [paralax/awesome-honeypots](https://github.com/paralax/awesome-honeypots) | 10,565 | 338 | 10 | 11 | 17 | 162 |
 | [sbilly/awesome-security](https://github.com/sbilly/awesome-security) | 14,875 | 339 | 12 | 5 | 17 | 63 |
 | [diff-usion/Awesome-Diffusion-Models](https://github.com/diff-usion/Awesome-Diffusion-Models) | 12,370 | 2487 | 17 | 1 | 11 | 281 |
 | [hslatman/awesome-threat-intelligence](https://github.com/hslatman/awesome-threat-intelligence) | 10,665 | 279 | 11 | 4 | 14 | 50 |
 | [rshipp/awesome-malware-analysis](https://github.com/rshipp/awesome-malware-analysis) | 14,209 | 422 | 8 | 5 | 14 | 96 |
-| [bobeff/open-source-games](https://github.com/bobeff/open-source-games) | 15,282 | 412 | 16 | 0 | 10 | 33 |
 | [dastergon/awesome-sre](https://github.com/dastergon/awesome-sre) | 13,530 | 486 | 24 | 1 | 1 | 9 |
 | [alexpate/awesome-design-systems](https://github.com/alexpate/awesome-design-systems) | 25,991 | 279 | 2 | 8 | 14 | 16 |
 | [tiimgreen/github-cheat-sheet](https://github.com/tiimgreen/github-cheat-sheet) | 59,200 | 184 | 3 | 19 | 1 | 6 |
@@ -92,6 +97,7 @@ Sorted by the number of actionable findings.
 | [Mikoto10032/DeepLearning](https://github.com/Mikoto10032/DeepLearning) | 17,794 | 837 | 9 | 1 | 2 | 43 |
 | [phanan/htaccess](https://github.com/phanan/htaccess) | 13,185 | 38 | 12 | 0 | 0 | 0 |
 | [Kristories/awesome-guidelines](https://github.com/Kristories/awesome-guidelines) | 11,114 | 168 | 4 | 0 | 7 | 24 |
+| [bobeff/open-source-games](https://github.com/bobeff/open-source-games) | 15,282 | 412 | 1 | 0 | 10 | 33 |
 | [floodsung/Deep-Learning-Papers-Reading-Roadmap](https://github.com/floodsung/Deep-Learning-Papers-Reading-Roadmap) | 39,565 | 133 | 11 | 0 | 0 | 0 |
 | [JushBJJ/Mr.-Ranedeer-AI-Tutor](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor) | 29,578 | 28 | 10 | 0 | 0 | 0 |
 | [imDazui/Tvlist-awesome-m3u-m3u8](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8) | 30,025 | 215 | 10 | 0 | 0 | 3 |

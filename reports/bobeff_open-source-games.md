@@ -1,6 +1,6 @@
 # Link health: bobeff/open-source-games
 
-Scanned 2026-09-22 against 412 links found in the README.
+Scanned 2026-09-24 against 412 links found in the README.
 
 Only HTTP 404/410 count as dead. 403/412 (bot protection), 429 (rate
 limiting) and 000 (DNS/TLS failure) are excluded - on a list this size
@@ -11,33 +11,14 @@ mistaken for a deleted one.
 
 | | count |
 |---|---|
-| Dead links | 16 |
+| Dead links | 1 |
 | Deleted repositories | 0 |
 | Archived repositories | 10 |
 | No activity in 2+ years | 31 |
 
-## Dead links (16)
-
-Clustered on hosts that went away wholesale:
-
-- `en.wikipedia.org` - 15 links
+## Dead links (1)
 
 - https://cytopia.itch.io/cytopia
-- https://en.wikipedia.org/wiki/Aliens_Versus_Predator_(1999_video_game
-- https://en.wikipedia.org/wiki/Baldur%27s_Gate_(video_game
-- https://en.wikipedia.org/wiki/Blood_(video_game
-- https://en.wikipedia.org/wiki/Breakpoint_(demoparty
-- https://en.wikipedia.org/wiki/Build_(game_engine
-- https://en.wikipedia.org/wiki/Civilization_(video_game
-- https://en.wikipedia.org/wiki/Command_%26_Conquer_(1995_video_game
-- https://en.wikipedia.org/wiki/Diablo_(series
-- https://en.wikipedia.org/wiki/Diablo_(video_game
-- https://en.wikipedia.org/wiki/Doom_(1993_video_game
-- https://en.wikipedia.org/wiki/Elona_(video_game
-- https://en.wikipedia.org/wiki/Fallout_(video_game
-- https://en.wikipedia.org/wiki/Pharaoh_(video_game
-- https://en.wikipedia.org/wiki/Portal_(video_game
-- https://en.wikipedia.org/wiki/Quake_(video_game
 
 ## Archived repositories (10)
 

@@ -1,6 +1,6 @@
 # Link health: ujjwalkarn/Machine-Learning-Tutorials
 
-Scanned 2026-09-22 against 532 links found in the README.
+Scanned 2026-09-24 against 532 links found in the README.
 
 Only HTTP 404/410 count as dead. 403/412 (bot protection), 429 (rate
 limiting) and 000 (DNS/TLS failure) are excluded - on a list this size
@@ -11,18 +11,17 @@ mistaken for a deleted one.
 
 | | count |
 |---|---|
-| Dead links | 43 |
+| Dead links | 38 |
 | Deleted repositories | 1 |
 | Archived repositories | 1 |
 | No activity in 2+ years | 44 |
 
-## Dead links (43)
+## Dead links (38)
 
 Clustered on hosts that went away wholesale:
 
 - `alexminnaar.com` - 8 links
 - `outlace.com` - 6 links
-- `en.wikipedia.org` - 5 links
 
 5 have an archived copy, linked inline.
 
@@ -64,11 +63,6 @@ Clustered on hosts that went away wholesale:
 - http://www.vikparuchuri.com/blog/intro-to-ensemble-learning-in-r/
 - https://alexisperrier.com/nlp/2015/09/16/segmentation_twitter_timelines_lda_vs_lsa.html
 - https://courses.edx.org/courses/BerkeleyX/CS188x_1/1T2013/info
-- https://en.wikipedia.org/wiki/Boosting_(machine_learning
-- https://en.wikipedia.org/wiki/Bootstrapping_(statistics
-- https://en.wikipedia.org/wiki/Cross-validation_(statistics
-- https://en.wikipedia.org/wiki/Grafting_(decision_trees
-- https://en.wikipedia.org/wiki/Pruning_(decision_trees
 - https://homes.cs.washington.edu/~tqchen/pdf/BoostedTree.pdf
 - https://speakerdeck.com/bargava/introduction-to-deep-learning
 - https://towardsdatascience.com/named-entity-recognition-applications-and-use-cases-acdbf57d595e

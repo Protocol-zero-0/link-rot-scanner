@@ -61,7 +61,7 @@ Output is a per-repository report under `reports/`.
 ## Survey results
 
 Run across 159 widely-used curated lists holding roughly 4.2 million GitHub
-stars between them. It checked 37,203 links and found 1,102 genuinely dead
+stars between them. It checked 37,203 links and found 1,081 genuinely dead
 ones, plus 205 linked repositories that have since been deleted, 794 that are
 archived, and 5,035 with no activity in two or more years.
 

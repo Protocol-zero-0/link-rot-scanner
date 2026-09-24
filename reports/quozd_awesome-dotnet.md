@@ -1,6 +1,6 @@
 # Link health: quozd/awesome-dotnet
 
-Scanned 2026-09-22 against 738 links found in the README.
+Scanned 2026-09-24 against 738 links found in the README.
 
 Only HTTP 404/410 count as dead. 403/412 (bot protection), 429 (rate
 limiting) and 000 (DNS/TLS failure) are excluded - on a list this size
@@ -14,7 +14,7 @@ mistaken for a deleted one.
 | Dead links | 1 |
 | Deleted repositories | 0 |
 | Archived repositories | 16 |
-| No activity in 2+ years | 44 |
+| No activity in 2+ years | 45 |
 
 ## Dead links (1)
 
@@ -39,7 +39,7 @@ mistaken for a deleted one.
 - unosquare/embedio (last push 2026-03-09)
 - xamarin/Xamarin.Forms (last push 2024-04-29)
 
-## No activity in 2+ years (44)
+## No activity in 2+ years (45)
 
 - dypsilon/frontend-dev-bookmarks (last push 2024-05-21, 47531 stars)
 - mono/mono (last push 2024-08-27, 11466 stars)
@@ -76,6 +76,7 @@ mistaken for a deleted one.
 - aloisdg/awesome-linq (last push 2018-10-25, 408 stars)
 - minhhungit/ConsoleTableExt (last push 2024-07-18, 347 stars)
 - timheuer/callisto (last push 2015-06-26, 339 stars)
+- Drizin/CodegenCS (last push 2024-09-23, 307 stars)
 - alexbeletsky/elmah-mvc (last push 2024-07-11, 262 stars)
 - weichch/system-text-json-jsondiffpatch (last push 2024-04-22, 125 stars)
 - mgholam/hOOt (last push 2020-07-07, 120 stars)

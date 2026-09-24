@@ -1,6 +1,6 @@
 # Link health: mikeroyal/Self-Hosting-Guide
 
-Scanned 2026-09-22 against 2395 links found in the README.
+Scanned 2026-09-24 against 2395 links found in the README.
 
 Only HTTP 404/410 count as dead. 403/412 (bot protection), 429 (rate
 limiting) and 000 (DNS/TLS failure) are excluded - on a list this size
@@ -11,12 +11,12 @@ mistaken for a deleted one.
 
 | | count |
 |---|---|
-| Dead links | 57 |
+| Dead links | 56 |
 | Deleted repositories | 7 |
 | Archived repositories | 49 |
-| No activity in 2+ years | 150 |
+| No activity in 2+ years | 151 |
 
-## Dead links (57)
+## Dead links (56)
 
 Clustered on hosts that went away wholesale:
 
@@ -38,7 +38,6 @@ Clustered on hosts that went away wholesale:
 - https://dl.min.io/server/minio/release/linux-s390x/minio|
 - https://dl.min.io/server/minio/release/windows-amd64/minio.exe
 - https://docs.fluentd.org/v/0.12/articles/kubernetes-fluentd
-- https://en.wikipedia.org/wiki/Docker_(software
 - https://enchantedcode.co.uk/hasty-paste/
 - https://eventql.io/documentation/
 - https://forums.ghostbsd.org/index.php
@@ -146,7 +145,7 @@ Clustered on hosts that went away wholesale:
 - serge-chat/serge (last push 2025-11-21)
 - zedeus/nitter (last push 2026-09-07)
 
-## No activity in 2+ years (150)
+## No activity in 2+ years (151)
 
 - BVLC/caffe (last push 2024-07-31, 34552 stars)
 - mckaywrigley/chatbot-ui (last push 2024-08-03, 33349 stars)
@@ -234,6 +233,7 @@ Clustered on hosts that went away wholesale:
 - t4t5/nostr-react (last push 2024-02-20, 86 stars)
 - ruscur/snowpatch (last push 2024-04-19, 84 stars)
 - kalkih/forked-daapd-card (last push 2022-05-27, 78 stars)
+- 0xtrr/nostr-tool (last push 2024-09-22, 77 stars)
 - DuinOS/DuinOS (last push 2020-07-10, 73 stars)
 - digi-monkey/flycat-web (last push 2024-02-27, 71 stars)
 - nostr-connect/nostrum (last push 2023-12-06, 65 stars)

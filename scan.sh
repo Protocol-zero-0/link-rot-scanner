@@ -12,13 +12,40 @@ if [ "${1:-}" = "-f" ]; then mapfile -t targets < "$2"; else targets=("$@"); fi
 [ ${#targets[@]} -gt 0 ] || { sed -n '2,4p' "$0"; exit 1; }
 mkdir -p "$OUT" .cache
 
+# URLs may contain balanced parentheses (Wikipedia: `/wiki/Doom_(1993_video_game)`),
+# while markdown closes a link with `)`. Stopping at the first `)` truncates such
+# URLs into 404s that are not really dead, so track paren depth instead.
+extract_links() {
+  python3 - "$1" <<'PY'
+import re, sys
+text = open(sys.argv[1], encoding="utf-8", errors="replace").read()
+for m in re.finditer(r"https?://", text):
+    i, depth = m.start(), 0
+    j = m.end()
+    while j < len(text):
+        c = text[j]
+        if c.isspace() or c in '<>"\'`':
+            break
+        if c == "(":
+            depth += 1
+        elif c == ")":
+            if depth == 0:
+                break
+            depth -= 1
+        j += 1
+    url = text[i:j].rstrip(".,;:*")
+    if len(url) > len(m.group(0)):
+        print(url)
+PY
+}
+
 # 1. pull README, extract links
 fetch() {
   local r="$1" s="${1//\//_}"
   mkdir -p ".cache/$s"
   gh api "repos/$r/readme" 2>/dev/null | jq -r '.content // empty' | base64 -d > ".cache/$s/README.md" 2>/dev/null
-  grep -oE 'https?://[^ )>"'"'"'`]+' ".cache/$s/README.md" 2>/dev/null \
-    | sed 's/[.,;:]$//' | grep -vE 'shields\.io|badgen|camo\.github|/badge' \
+  extract_links ".cache/$s/README.md" \
+    | grep -vE 'shields\.io|badgen|camo\.github|/badge' \
     | sort -u > ".cache/$s/links.txt"
 }
 

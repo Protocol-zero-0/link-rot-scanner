@@ -1,6 +1,6 @@
 # Link health: visenger/awesome-mlops
 
-Scanned 2026-09-22 against 518 links found in the README.
+Scanned 2026-09-24 against 518 links found in the README.
 
 Only HTTP 404/410 count as dead. 403/412 (bot protection), 429 (rate
 limiting) and 000 (DNS/TLS failure) are excluded - on a list this size
@@ -14,7 +14,7 @@ mistaken for a deleted one.
 | Dead links | 48 |
 | Deleted repositories | 0 |
 | Archived repositories | 1 |
-| No activity in 2+ years | 26 |
+| No activity in 2+ years | 27 |
 
 ## Dead links (48)
 
@@ -76,10 +76,11 @@ Clustered on hosts that went away wholesale:
 
 - GoogleCloudPlatform/mlops-on-gcp (last push 2026-07-01)
 
-## No activity in 2+ years (26)
+## No activity in 2+ years (27)
 
 - eugeneyan/applied-ml (last push 2024-07-18, 30382 stars)
 - datastacktv/data-engineer-roadmap (last push 2022-01-25, 12756 stars)
+- graviraja/MLOps-Basics (last push 2024-09-22, 8918 stars)
 - soulmachine/machine-learning-cheat-sheet (last push 2024-07-30, 8047 stars)
 - airbnb/knowledge-repo (last push 2024-09-04, 5540 stars)
 - tirthajyoti/Data-science-best-resources (last push 2024-08-17, 3224 stars)

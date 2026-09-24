@@ -1,6 +1,6 @@
 # Link health: bayandin/awesome-awesomeness
 
-Scanned 2026-09-22 against 336 links found in the README.
+Scanned 2026-09-24 against 336 links found in the README.
 
 Only HTTP 404/410 count as dead. 403/412 (bot protection), 429 (rate
 limiting) and 000 (DNS/TLS failure) are excluded - on a list this size
@@ -14,7 +14,7 @@ mistaken for a deleted one.
 | Dead links | 1 |
 | Deleted repositories | 4 |
 | Archived repositories | 18 |
-| No activity in 2+ years | 106 |
+| No activity in 2+ years | 107 |
 
 ## Dead links (1)
 
@@ -48,7 +48,7 @@ mistaken for a deleted one.
 - sneg55/curatedseotools (last push 2020-04-23)
 - webpro/awesome-newsletters (last push 2021-04-19)
 
-## No activity in 2+ years (106)
+## No activity in 2+ years (107)
 
 - prakhar1989/awesome-courses (last push 2023-05-04, 71313 stars)
 - dypsilon/frontend-dev-bookmarks (last push 2024-05-21, 47531 stars)
@@ -66,6 +66,7 @@ mistaken for a deleted one.
 - bnb/awesome-hyper (last push 2022-09-20, 11008 stars)
 - lauris/awesome-scala (last push 2024-09-20, 9245 stars)
 - moklick/frontend-stuff (last push 2024-06-26, 8943 stars)
+- Kiloreux/awesome-robotics (last push 2024-09-22, 7184 stars)
 - kjw0612/awesome-rnn (last push 2022-02-03, 6211 stars)
 - benedekrozemberczki/awesome-graph-classification (last push 2023-03-18, 4801 stars)
 - LewisJEllis/awesome-lua (last push 2024-08-11, 4575 stars)

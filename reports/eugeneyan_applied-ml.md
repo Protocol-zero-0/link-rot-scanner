@@ -1,6 +1,6 @@
 # Link health: eugeneyan/applied-ml
 
-Scanned 2026-09-22 against 744 links found in the README.
+Scanned 2026-09-24 against 744 links found in the README.
 
 Only HTTP 404/410 count as dead. 403/412 (bot protection), 429 (rate
 limiting) and 000 (DNS/TLS failure) are excluded - on a list this size

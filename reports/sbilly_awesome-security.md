@@ -1,6 +1,6 @@
 # Link health: sbilly/awesome-security
 
-Scanned 2026-09-22 against 339 links found in the README.
+Scanned 2026-09-24 against 339 links found in the README.
 
 Only HTTP 404/410 count as dead. 403/412 (bot protection), 429 (rate
 limiting) and 000 (DNS/TLS failure) are excluded - on a list this size
@@ -14,7 +14,7 @@ mistaken for a deleted one.
 | Dead links | 12 |
 | Deleted repositories | 5 |
 | Archived repositories | 17 |
-| No activity in 2+ years | 54 |
+| No activity in 2+ years | 55 |
 
 ## Dead links (12)
 
@@ -63,7 +63,7 @@ Clustered on hosts that went away wholesale:
 - tnich/honssh (last push 2022-01-02)
 - volatilityfoundation/volatility (last push 2025-05-16)
 
-## No activity in 2+ years (54)
+## No activity in 2+ years (55)
 
 - bayandin/awesome-awesomeness (last push 2024-06-02, 33679 stars)
 - carpedm20/awesome-hacking (last push 2024-06-02, 17108 stars)
@@ -72,6 +72,7 @@ Clustered on hosts that went away wholesale:
 - apsdehal/awesome-ctf (last push 2024-07-22, 11860 stars)
 - aboul3la/Sublist3r (last push 2024-08-02, 11044 stars)
 - jakejarvis/awesome-shodan-queries (last push 2024-05-27, 7746 stars)
+- trustedsec/ptf (last push 2024-09-22, 5570 stars)
 - USArmyResearchLab/Dshell (last push 2024-05-07, 5495 stars)
 - nil0x42/phpsploit (last push 2024-05-06, 2492 stars)
 - cider-security-research/cicd-goat (last push 2024-07-14, 2304 stars)

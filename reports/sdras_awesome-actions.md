@@ -1,6 +1,6 @@
 # Link health: sdras/awesome-actions
 
-Scanned 2026-09-22 against 406 links found in the README.
+Scanned 2026-09-24 against 406 links found in the README.
 
 Only HTTP 404/410 count as dead. 403/412 (bot protection), 429 (rate
 limiting) and 000 (DNS/TLS failure) are excluded - on a list this size
@@ -14,7 +14,7 @@ mistaken for a deleted one.
 | Dead links | 0 |
 | Deleted repositories | 6 |
 | Archived repositories | 60 |
-| No activity in 2+ years | 102 |
+| No activity in 2+ years | 103 |
 
 ## Deleted repositories (6)
 
@@ -88,9 +88,10 @@ mistaken for a deleted one.
 - tibdex/autosquash (last push 2021-04-05)
 - whelk-io/maven-settings-xml-action (last push 2025-01-02)
 
-## No activity in 2+ years (102)
+## No activity in 2+ years (103)
 
 - sdras/awesome-actions (last push 2024-09-01, 28248 stars)
+- pascalgn/automerge-action (last push 2024-09-22, 928 stars)
 - SpicyPizza/create-envfile (last push 2024-02-21, 477 stars)
 - andresz1/size-limit-action (last push 2024-06-07, 474 stars)
 - alex-page/github-project-automation-plus (last push 2024-01-03, 352 stars)

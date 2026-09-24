@@ -1,6 +1,6 @@
 # Link health: jnv/lists
 
-Scanned 2026-09-22 against 1787 links found in the README.
+Scanned 2026-09-24 against 1787 links found in the README.
 
 Only HTTP 404/410 count as dead. 403/412 (bot protection), 429 (rate
 limiting) and 000 (DNS/TLS failure) are excluded - on a list this size
@@ -14,7 +14,7 @@ mistaken for a deleted one.
 | Dead links | 25 |
 | Deleted repositories | 16 |
 | Archived repositories | 88 |
-| No activity in 2+ years | 655 |
+| No activity in 2+ years | 656 |
 
 ## Dead links (25)
 
@@ -154,7 +154,7 @@ mistaken for a deleted one.
 - workos/awesome-developer-experience (last push 2024-07-12)
 - ztsu/javascript-resources (last push 2016-01-13)
 
-## No activity in 2+ years (655)
+## No activity in 2+ years (656)
 
 - prakhar1989/awesome-courses (last push 2023-05-04, 71313 stars)
 - xingshaocheng/architect-awesome (last push 2024-04-11, 60857 stars)
@@ -204,6 +204,7 @@ mistaken for a deleted one.
 - moklick/frontend-stuff (last push 2024-06-26, 8943 stars)
 - Aufree/trip-to-iOS (last push 2022-05-17, 7868 stars)
 - hwayne/awesome-cold-showers (last push 2024-01-05, 7345 stars)
+- Kiloreux/awesome-robotics (last push 2024-09-22, 7184 stars)
 - Twipped/InterviewThis (last push 2022-08-28, 6904 stars)
 - paddingme/Front-end-Web-Development-Interview-Question (last push 2024-04-23, 6846 stars)
 - chrissimpkins/codeface (last push 2020-09-19, 6517 stars)

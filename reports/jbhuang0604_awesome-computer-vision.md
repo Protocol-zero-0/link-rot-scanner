@@ -1,6 +1,6 @@
 # Link health: jbhuang0604/awesome-computer-vision
 
-Scanned 2026-09-22 against 501 links found in the README.
+Scanned 2026-09-24 against 501 links found in the README.
 
 Only HTTP 404/410 count as dead. 403/412 (bot protection), 429 (rate
 limiting) and 000 (DNS/TLS failure) are excluded - on a list this size
@@ -14,7 +14,7 @@ mistaken for a deleted one.
 | Dead links | 53 |
 | Deleted repositories | 2 |
 | Archived repositories | 1 |
-| No activity in 2+ years | 51 |
+| No activity in 2+ years | 52 |
 
 ## Dead links (53)
 
@@ -92,12 +92,13 @@ Clustered on hosts that went away wholesale:
 
 - bertjiazheng/awesome-scene-understanding (last push 2025-08-07)
 
-## No activity in 2+ years (51)
+## No activity in 2+ years (52)
 
 - jbhuang0604/awesome-computer-vision (last push 2024-05-17, 23568 stars)
 - kjw0612/awesome-deep-vision (last push 2023-08-15, 11187 stars)
 - timzhang642/3D-Machine-Learning (last push 2024-07-04, 10203 stars)
 - amusi/awesome-object-detection (last push 2022-12-17, 7507 stars)
+- kiloreux/awesome-robotics (last push 2024-09-22, 7184 stars)
 - karpathy/neuraltalk (last push 2020-12-22, 5504 stars)
 - ChanChiChoi/awesome-Face_Recognition (last push 2023-02-09, 4759 stars)
 - openMVG/awesome_3DReconstruction_list (last push 2021-10-12, 4424 stars)

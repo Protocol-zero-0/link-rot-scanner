@@ -1,6 +1,6 @@
 # Link health: binary-husky/gpt_academic
 
-Scanned 2026-09-22 against 96 links found in the README.
+Scanned 2026-09-24 against 96 links found in the README.
 
 Only HTTP 404/410 count as dead. 403/412 (bot protection), 429 (rate
 limiting) and 000 (DNS/TLS failure) are excluded - on a list this size
@@ -14,7 +14,7 @@ mistaken for a deleted one.
 | Dead links | 1 |
 | Deleted repositories | 0 |
 | Archived repositories | 2 |
-| No activity in 2+ years | 1 |
+| No activity in 2+ years | 2 |
 
 ## Dead links (1)
 
@@ -25,9 +25,10 @@ mistaken for a deleted one.
 - acheong08/EdgeGPT (last push 2023-08-03)
 - oobabooga/one-click-installers (last push 2023-09-23)
 
-## No activity in 2+ years (1)
+## No activity in 2+ years (2)
 
 - fghrsh/live2d_demo (last push 2020-05-19, 1467 stars)
+- binary-husky/void-terminal (last push 2024-09-22, 19 stars)
 
 ---
 
