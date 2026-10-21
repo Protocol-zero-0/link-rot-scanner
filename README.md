@@ -1,4 +1,4 @@
-# Link Health Scanner
+# Link Rot Scanner: broken link checker for awesome lists
 
 A link-rot scanner for large curated lists (awesome-lists, resource collections,
 documentation indexes).
@@ -57,6 +57,27 @@ updated).
 ```
 
 Output is a per-repository report under `reports/`.
+
+### As a GitHub Action
+
+Check your own list on a schedule. The report lands in the job summary.
+
+```yaml
+name: links
+on:
+  schedule: [{ cron: "0 3 * * 1" }]
+  workflow_dispatch:
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Protocol-zero-0/link-rot-scanner@v1
+        with:
+          fail-on-dead: true   # fail only on double-verified 404/410 or deleted repos
+```
+
+Inputs: `repository` (default: the current repo), `fail-on-dead`, `stale-years`, `token`.
+Outputs: `dead-links`, `deleted-repos`, `report`.
 
 ## Survey results
 

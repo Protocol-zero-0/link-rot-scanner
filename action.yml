@@ -1,0 +1,53 @@
+name: Awesome List Link Rot Scanner
+description: Find dead links in awesome lists and curated READMEs. Reports only double-verified 404/410 and deleted GitHub repos, no 403/429 false positives.
+author: Protocol Zero
+branding:
+  icon: link
+  color: red
+inputs:
+  repository:
+    description: Repository whose README is scanned, as owner/repo.
+    default: ${{ github.repository }}
+  token:
+    description: Token for the GitHub API (repository lookups and README fetch).
+    default: ${{ github.token }}
+  fail-on-dead:
+    description: Fail the step when dead links or deleted repositories are found.
+    default: "false"
+  stale-years:
+    description: Repositories with no push for this many years are listed as inactive.
+    default: "2"
+outputs:
+  dead-links:
+    description: Number of double-verified 404/410 links.
+    value: ${{ steps.scan.outputs.dead-links }}
+  deleted-repos:
+    description: Number of linked GitHub repositories that no longer exist.
+    value: ${{ steps.scan.outputs.deleted-repos }}
+  report:
+    description: Path to the Markdown report.
+    value: ${{ steps.scan.outputs.report }}
+runs:
+  using: composite
+  steps:
+    - id: scan
+      shell: bash
+      env:
+        GH_TOKEN: ${{ inputs.token }}
+        STALE_YEARS: ${{ inputs.stale-years }}
+        TARGET: ${{ inputs.repository }}
+        FAIL_ON_DEAD: ${{ inputs.fail-on-dead }}
+      run: |
+        work="$RUNNER_TEMP/link-rot-scanner"
+        mkdir -p "$work" && cd "$work"
+        OUT="$work/reports" bash "$GITHUB_ACTION_PATH/scan.sh" "$TARGET"
+        report="$work/reports/${TARGET//\//_}.md"
+        [ -f "$report" ] || { echo "::error::no report produced for $TARGET"; exit 1; }
+        dead=$(sed -n 's/^## Dead links (\([0-9]*\))$/\1/p' "$report")
+        gone=$(sed -n 's/^## Deleted repositories (\([0-9]*\))$/\1/p' "$report")
+        cat "$report" >> "$GITHUB_STEP_SUMMARY"
+        { echo "dead-links=${dead:-0}"; echo "deleted-repos=${gone:-0}"; echo "report=$report"; } >> "$GITHUB_OUTPUT"
+        if [ "$FAIL_ON_DEAD" = "true" ] && [ $(( ${dead:-0} + ${gone:-0} )) -gt 0 ]; then
+          echo "::error::${dead:-0} dead links, ${gone:-0} deleted repositories in $TARGET"
+          exit 1
+        fi

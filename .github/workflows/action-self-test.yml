@@ -1,0 +1,17 @@
+name: action self-test
+on:
+  push:
+    paths: [action.yml, scan.sh, .github/workflows/action-self-test.yml]
+  workflow_dispatch:
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - id: links
+        uses: ./
+        with:
+          repository: Protocol-zero-0/awesome-openclaw-hardware
+      - run: |
+          echo "dead=${{ steps.links.outputs.dead-links }} deleted=${{ steps.links.outputs.deleted-repos }}"
+          test -s "${{ steps.links.outputs.report }}"
