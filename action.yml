@@ -1,5 +1,5 @@
 name: Awesome List Link Rot Scanner
-description: Find dead links in awesome lists and curated READMEs. Reports only double-verified 404/410 and deleted GitHub repos, no 403/429 false positives.
+description: Find dead links in awesome lists. Reports only double-verified 404/410 and deleted repos, no 403/429 false positives.
 author: Protocol Zero
 branding:
   icon: link
