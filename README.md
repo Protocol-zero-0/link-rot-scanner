@@ -106,3 +106,11 @@ Full survey and per-repository detail: [reports/](reports/).
 ## License
 
 MIT
+
+---
+
+### More from Protocol Zero
+
+- **[compound-memory](https://github.com/Protocol-zero-0/compound-memory)** — Cross-session, cross-machine long-term memory for Claude Code and Codex (local-first, zero dependencies).
+- **[evolution-kernel](https://github.com/Protocol-zero-0/evolution-kernel)** — Open-source AlphaEvolve / FunSearch-style self-improving code loop, sandboxed and ledgered.
+- **[gpu-resume-skill](https://github.com/Protocol-zero-0/gpu-resume-skill)** — Checkpoint recovery layer for LLM fine-tuning, evaluation, and batch inference across Spot GPU preemptions on SkyPilot.
